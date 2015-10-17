@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white_tab">#aae6e6e6</color>
+    <color name="custom_tab_icon">#aae65152</color>
+    <color name="main_bottom_tab_textcolor_normal">#000000</color>
+    <color name="main_bottom_tab_textcolor_selected">#006fbb</color>
+    <color name="main_fab_background">#87006fbb</color>
+    <color name="main_fab_press_background">#5f000000</color>
+    <color name="white_screen">#bceeeeee</color>
+</resources>

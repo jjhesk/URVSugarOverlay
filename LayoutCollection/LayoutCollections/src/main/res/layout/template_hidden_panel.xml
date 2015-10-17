@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/lylib_hidden_panel"
+    android:layout_width="match_parent"
+    android:layout_height="400dp">
+
+    <FrameLayout
+        android:id="@id/lylib_bottom_fragment_holder_framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ProgressBar
+        android:id="@id/lylib_ui_loading_progress_bottom_up_frame"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>

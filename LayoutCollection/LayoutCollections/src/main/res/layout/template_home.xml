@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/loc1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#ff44aacc"
+        app:layout_heightPercent="33%" />
+
+    <ImageView
+        android:id="@+id/loc2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@+id/loc1"
+        android:background="#ffe40000"
+        app:layout_heightPercent="33%" />
+
+    <ImageView
+        android:id="@+id/loc3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@+id/loc2"
+        android:background="#ff00ff22"
+        app:layout_heightPercent="34%"
+        app:layout_widthPercent="50%" />
+
+    <ImageView
+        android:id="@+id/loc4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@+id/loc2"
+        android:layout_toRightOf="@id/loc3"
+        android:background="#ff4ffd"
+        app:layout_heightPercent="34%"
+        app:layout_widthPercent="50%" />
+
+    <ImageView
+        android:id="@+id/loc5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@+id/loc4"
+        android:background="#aae65152"
+        app:layout_heightPercent="33%" />
+</android.support.percent.PercentRelativeLayout>
+

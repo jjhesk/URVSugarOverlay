@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/lylib_main_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.hkm.layout.NonSwipe
+        android:id="@id/lylib_main_frame_body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/lylib_toolbar_stub" />
+
+    <View
+        android:id="@id/lylib_toolbar_stub"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary" />
+
+</RelativeLayout>
